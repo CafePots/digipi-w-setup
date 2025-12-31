@@ -29,8 +29,6 @@ pip install pillow aprslib gpiod dotenv board pyinotify Adafruit-Blinka adafruit
 git clone https://github.com/CafePots/digipi-w-setup.git
 cd digipi-w-setup
 ```
-* setting up direwolf is required information for direwolf is here: [DireWolf](https://github.com/wb2osz/direwolf)
-* direwolf Requirements were added to the command above.
 
 * If you are using a user other than "pi" change the `home/pi` folder to your user e.g. `home/user`
 
@@ -51,3 +49,7 @@ may download the image at https://digipi.org/
 Thank you for your support,
 -craig
 ```
+
+### Other Outside source info
+* direwolf used for several of the tools Craig made [DireWolf](https://github.com/wb2osz/direwolf)
+* direwolf and requirements were added in the apt install above
