@@ -15,7 +15,9 @@ None the less this is a great project so support Craig if you like with the info
 * for simplicity I tested on Raspberry Pi OS, this should work for you as well
 
 * install DigiPi Requirement packages
-```sudo apt install python3 git php libapache2-mod-php wsjtx cmake build-essential libusb-1.0-0-dev hamradio-all xtightvncviewer qsstv gcc g++ make cmake libasound2-dev libudev-dev libavahi-client-dev libgpiod-dev direwolf python3-spidev aprsd```
+```
+sudo apt install python3 git php libapache2-mod-php wsjtx cmake build-essential libusb-1.0-0-dev hamradio-all xtightvncviewer qsstv gcc g++ make cmake libasound2-dev libudev-dev libavahi-client-dev libgpiod-dev direwolf python3-spidev aprsd
+```
 
 * install Python Requirements
 ```
