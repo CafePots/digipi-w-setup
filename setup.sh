@@ -3,6 +3,12 @@
 
 # when running ensure that you are in the git repo's folder
 
+## apache setup
+systemctl enable apache2.service
+a2enmod php*
+
+## direwolf Setup
+
 cp -r etc /
 cp -r home /
 cp -r systemd /usr/share/

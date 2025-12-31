@@ -14,14 +14,21 @@ None the less this is a great project so support Craig if you like with the info
 
 * for simplicity I tested on Raspberry Pi OS, this should work for you as well
 
-* install git
-`sudo apt install git`
+* install DigiPi Requirement packages
+`sudo apt install python3 git php libapache2-mod-php wsjtx cmake build-essential libusb-1.0-0-dev hamradio-all xtightvncviewer qsstv gcc g++ make cmake libasound2-dev libudev-dev libavahi-client-dev libgpiod-dev direwolf python3-spidev aprsd`
+
+* install Python Requirements
+```
+pip install pillow aprslib gpiod dotenv board pyinotify Adafruit-Blinka adafruit-circuitpython-rgb-display adafruit-circuitpython-bme680 --break-system-packages
+```
 
 * Clone and enter this repo to the Raspberry Pi
 ```
 git clone https://github.com/CafePots/digipi-w-setup.git
 cd digipi-w-setup
 ```
+* setting up direwolf is required information for direwolf is here: [DireWolf](https://github.com/wb2osz/direwolf)
+* direwolf Requirements were added to the command above.
 
 * If you are using a user other than "pi" change the `home/pi` folder to your user e.g. `home/user`
 
