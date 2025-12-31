@@ -14,6 +14,9 @@ None the less this is a great project so support Craig if you like with the info
 
 * for simplicity I tested on Raspberry Pi OS, this should work for you as well
 
+* install git
+`sudo apt install git`
+
 * Clone and enter this repo to the Raspberry Pi
 ```
 git clone https://github.com/CafePots/digipi-w-setup.git

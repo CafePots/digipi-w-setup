@@ -3,8 +3,10 @@
 
 # when running ensure that you are in the git repo's folder
 
-cp -r etc /etc
-cp -r home /home
-cp -r systemd /usr/share/systemd
-cp -r usr /usr
-cp -r var /var
+cp -r etc /
+cp -r home /
+cp -r systemd /usr/share/
+cp -r usr /
+cp -r var /
+
+systemctl enable /usr/share/systemd/system/digipi-boot.service
