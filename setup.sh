@@ -11,7 +11,7 @@ a2enmod php*
 
 cp -r etc /
 cp -r home /
-cp -r systemd /usr/share/
+cp -r systemd /etc
 cp -r usr /
 cp -r var /
 
